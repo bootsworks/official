@@ -1,0 +1,40 @@
+
+body {
+	background-color: grey;
+
+	margin: 0;
+}
+div { 
+width: 100px;
+height: 100px;
+background-color: hsla(30, 40%, 60%,1);
+text-align: center;
+line-height: 100px;
+color:white;
+
+
+	position: relative;
+
+		top: 50%
+	}
+
+
+	div:first-child {
+
+		background-color: hsla(300,60%,80%,1);
+
+		left: 0;
+		top: 50px;
+		z-index: 2;
+ 
+}
+	div:last-child {
+
+		background-color: hsla(300,20%,40%,1);
+
+	top: -120px;
+	left: 25px;
+	z-index: 3;
+
+}
+
